@@ -2,21 +2,74 @@
   "$schema": "https://raw.githubusercontent.com/AmirHkrg/hokm-web/v2/games/spec/store-index.schema.json",
   "schema": 1,
   "name": {
-    "en": "HokmHub",
-    "fa": "حکم هاب"
+    "en": "AmirHossein Games"
   },
   "publisher": {
     "id": "amirhossein",
     "name": "AmirHossein",
     "url": "https://github.com/AmirHkrg/HGS"
   },
-  "updatedAt": "2026-10-26T00:00:00Z",
+  "updatedAt": "2026-10-31T02:13:28Z",
   "keys": [
     {
-      "kid": "k-2a466d014af1248a",
+      "kid": "k-8bdef75691fd57e8",
       "alg": "ed25519",
-      "publicKey": "GNdgvpnNertqOD3FWzQSEq4sDq75SDZvUyiyWAEYlek="
+      "publicKey": "G9QLD8PNWxApgR8gToHLshubxQ4yOwrTeGwZWy5KlAo="
     }
   ],
-  "games": []
+  "games": [
+    {
+      "id": "chess",
+      "name": {
+        "en": "Chess",
+        "fa": "شطرنج"
+      },
+      "summary": {
+        "en": "Classic chess against a friend or the bot",
+        "fa": "شطرنج کلاسیک با دوستت یا با ربات"
+      },
+      "description": {
+        "en": "Chess with the full rules: castling, en passant, promotion, checkmate and stalemate, and draws by threefold repetition, the fifty-move rule or too little material. Play a friend, or play alone against the bot at easy, medium or hard. Offer a draw or resign, follow the moves, and watch the replay afterwards.",
+        "fa": "شطرنج با همهٔ قوانین: قلعه، آن‌پاسان، ارتقای سرباز، کیش و مات و پات، و مساوی با تکرار سه‌باره، قانون ۵۰ حرکت یا کمبود مهره. با دوستت بازی کن، یا تنها با ربات در سطح ساده، متوسط یا سخت. مساوی پیشنهاد بده یا تسلیم شو، حرکت‌ها را دنبال کن و بعد بازی را دوباره ببین."
+      },
+      "author": {
+        "name": "HokmHub"
+      },
+      "tags": [
+        "board",
+        "two-player",
+        "strategy"
+      ],
+      "kind": "turn",
+      "runtime": "wasm",
+      "players": {
+        "min": 2,
+        "max": 2
+      },
+      "icon": "chess/icon.svg",
+      "theme": {
+        "gradient": [
+          "#b45309",
+          "#451a03"
+        ]
+      },
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "url": "https://raw.githubusercontent.com/AmirHkrg/HGS/main/chess/chess-1.0.0.tar.gz",
+          "sha256": "971cf91c935c02346fed36d244bcc311ddb6c9caba80501e2b1956d049014ca3",
+          "size": 234460,
+          "apiVersion": 1,
+          "host": "\u003e=2.2.0 \u003c3.0.0",
+          "stateVersion": 1,
+          "releasedAt": "2026-10-31T02:13:28Z",
+          "signature": {
+            "kid": "k-8bdef75691fd57e8",
+            "sig": "ZKVXOciPrJIdhF5hHSm15PgfjgVayWxDxtJEJiCRlTvGFvI3u03pEmxGySPSMgtkjSeuSUvzkqmleXFJbUw2BQ=="
+          }
+        }
+      ]
+    }
+  ]
 }
