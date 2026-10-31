@@ -1,0 +1,10 @@
+{
+  "id": "ridge",
+  "version": "1.1.0",
+  "sha256": "64c1b4673fcf23dc06423759612d485a00c28f96ec06198e6c773e36e0da116a",
+  "size": 1453733,
+  "signature": {
+    "kid": "k-2846cbf45e14e2d8",
+    "sig": "taXCZ3ovnTEq3cEPgoO3TQLxT+pM8HyGJO5AWU1nThSNQjzVyrDTIvCcUvt7ScS+vdtJEPblRIqJAUrFbLF0Dw=="
+  }
+}

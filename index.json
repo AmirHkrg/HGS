@@ -9,12 +9,17 @@
     "name": "Ekhsh",
     "url": "https://github.com/AmirHkrg/HGS"
   },
-  "updatedAt": "2026-10-31T03:37:42Z",
+  "updatedAt": "2026-10-31T03:45:41Z",
   "keys": [
     {
       "kid": "k-8bdef75691fd57e8",
       "alg": "ed25519",
       "publicKey": "G9QLD8PNWxApgR8gToHLshubxQ4yOwrTeGwZWy5KlAo="
+    },
+    {
+      "kid": "k-2846cbf45e14e2d8",
+      "alg": "ed25519",
+      "publicKey": "+9sXrtR1TchcpsO+6Xi6piQO+05sBRFh1r1M2mRTtTk="
     }
   ],
   "games": [
@@ -127,7 +132,11 @@
             "audio",
             "fullscreen",
             "haptics"
-          ]
+          ],
+          "signature": {
+            "kid": "k-2846cbf45e14e2d8",
+            "sig": "taXCZ3ovnTEq3cEPgoO3TQLxT+pM8HyGJO5AWU1nThSNQjzVyrDTIvCcUvt7ScS+vdtJEPblRIqJAUrFbLF0Dw=="
+          }
         }
       ]
     }
