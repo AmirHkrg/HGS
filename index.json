@@ -9,7 +9,7 @@
     "name": "AmirHossein",
     "url": "https://github.com/AmirHkrg/HGS"
   },
-  "updatedAt": "2026-10-31T02:13:28Z",
+  "updatedAt": "2026-10-31T02:14:49Z",
   "keys": [
     {
       "kid": "k-8bdef75691fd57e8",
@@ -57,13 +57,13 @@
       "versions": [
         {
           "version": "1.0.0",
-          "url": "https://raw.githubusercontent.com/AmirHkrg/HGS/main/chess/chess-1.0.0.tar.gz",
+          "url": "https://raw.githubusercontent.com/AmirHkrg/HGS/master/chess/chess-1.0.0.tar.gz",
           "sha256": "971cf91c935c02346fed36d244bcc311ddb6c9caba80501e2b1956d049014ca3",
           "size": 234460,
           "apiVersion": 1,
           "host": "\u003e=2.2.0 \u003c3.0.0",
           "stateVersion": 1,
-          "releasedAt": "2026-10-31T02:13:28Z",
+          "releasedAt": "2026-10-31T02:14:49Z",
           "signature": {
             "kid": "k-8bdef75691fd57e8",
             "sig": "ZKVXOciPrJIdhF5hHSm15PgfjgVayWxDxtJEJiCRlTvGFvI3u03pEmxGySPSMgtkjSeuSUvzkqmleXFJbUw2BQ=="
