@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/AmirHkrg/hokm-web/v2/games/spec/store-index.schema.json",
   "schema": 1,
   "name": {
-    "en": "AmirHossein Games"
+    "en": "Ekhsh Games"
   },
   "publisher": {
-    "id": "amirhossein",
-    "name": "AmirHossein",
+    "id": "ekhsh",
+    "name": "Ekhsh",
     "url": "https://github.com/AmirHkrg/HGS"
   },
   "updatedAt": "2026-10-31T02:14:49Z",
