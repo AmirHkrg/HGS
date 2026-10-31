@@ -9,7 +9,7 @@
     "name": "Ekhsh",
     "url": "https://github.com/AmirHkrg/HGS"
   },
-  "updatedAt": "2026-10-31T19:00:35Z",
+  "updatedAt": "2026-10-31T20:02:35Z",
   "keys": [
     {
       "kid": "k-8bdef75691fd57e8",
@@ -114,8 +114,30 @@
           "#2b1d52"
         ]
       },
-      "latest": "1.1.1",
+      "latest": "1.1.2",
       "versions": [
+        {
+          "version": "1.1.2",
+          "url": "https://raw.githubusercontent.com/AmirHkrg/HGS/master/ridge/ridge-1.1.2.tar.gz",
+          "sha256": "afc8fc5110b33043c8fb8a47bf7328125525ef6718de6abe9f800086983236bd",
+          "size": 1455214,
+          "apiVersion": 1,
+          "host": "\u003e=2.2.0 \u003c3.0.0",
+          "stateVersion": 2,
+          "releasedAt": "2026-10-31T20:02:35Z",
+          "changelog": {
+            "en": "- Smooth motion when the server runs a little behind real time (a busy\n  host): the race clock follows the server's own pace, and your vehicle\n  never stops to wait for it but runs a touch faster or slower until it\n  is where it should be (1.1.1 could move in steps).\n- The others run on for at most 120 ms past a late frame (was 250 ms), so\n  they jump less when it comes.\n- Paints: pick your vehicle's colour in the garage from ten, or keep your\n  seat's. The others see it, and it is remembered for the next race."
+          },
+          "permissions": [
+            "audio",
+            "fullscreen",
+            "haptics"
+          ],
+          "signature": {
+            "kid": "k-2846cbf45e14e2d8",
+            "sig": "RpLghtfiTNkl2FhZvQBhio+nQ47Uzzx+8sX1kT93ILWfri8d2DEkLxum6LHFpD1TVuz4qLN+kD6HUFn0mSuIDw=="
+          }
+        },
         {
           "version": "1.1.1",
           "url": "https://raw.githubusercontent.com/AmirHkrg/HGS/master/ridge/ridge-1.1.1.tar.gz",
