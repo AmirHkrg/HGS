@@ -13,10 +13,9 @@
   "updatedAt": "2026-10-26T00:00:00Z",
   "keys": [
     {
-      "kid": "k-8bdef75691fd57e8",
+      "kid": "k-2a466d014af1248a",
       "alg": "ed25519",
-      "seed": "6jN5++dqke70A4CMqDbR0+i2I3AOzMHe75Z8zXNO8/I=",
-      "publicKey": "G9QLD8PNWxApgR8gToHLshubxQ4yOwrTeGwZWy5KlAo="
+      "publicKey": "GNdgvpnNertqOD3FWzQSEq4sDq75SDZvUyiyWAEYlek="
     }
   ],
   "games": []
