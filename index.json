@@ -9,7 +9,7 @@
     "name": "Ekhsh",
     "url": "https://github.com/AmirHkrg/HGS"
   },
-  "updatedAt": "2026-10-31T02:14:49Z",
+  "updatedAt": "2026-10-31T03:37:42Z",
   "keys": [
     {
       "kid": "k-8bdef75691fd57e8",
@@ -68,6 +68,66 @@
             "kid": "k-8bdef75691fd57e8",
             "sig": "ZKVXOciPrJIdhF5hHSm15PgfjgVayWxDxtJEJiCRlTvGFvI3u03pEmxGySPSMgtkjSeuSUvzkqmleXFJbUw2BQ=="
           }
+        }
+      ]
+    },
+    {
+      "id": "ridge",
+      "name": {
+        "en": "Ridge Rider",
+        "fa": "تپه‌نورد"
+      },
+      "summary": {
+        "en": "Race a rover, a dirt bike, a buggy or a monster truck over the hills, live",
+        "fa": "با جیپ، تریل، باگی یا مانستر تراک روی تپه‌ها زنده مسابقه بده"
+      },
+      "description": {
+        "en": "Two to four drivers race over the same course in real time, each in the vehicle they pick: a sturdy rover, a 250 cc two-stroke dirt bike, a light dune buggy or a monster truck. Gas and brake are all you have: on the ground they drive, in the air they flip you back and forward. Land back flips and front flips for points and a boost; land on your head and you go back to the last checkpoint. Your vehicle answers at once, however far the server is. First over the line wins, and your best time and stunt score on every course and vehicle are kept as your records.",
+        "fa": "دو تا چهار نفر همزمان روی یک مسیر مسابقه می‌دهند، هر کدام با وسیله‌ای که انتخاب می‌کند: جیپ محکم، موتور تریل ۲۵۰ سی‌سی دوزمانه، باگی سبک یا مانستر تراک. فقط گاز و ترمز داری: روی زمین می‌رانند و در هوا تو را به عقب و جلو می‌چرخانند. بک‌فلیپ و فرانت‌فلیپ بزن تا امتیاز و توربو بگیری؛ اگر با سر زمین بخوری به آخرین ایست بازرسی برمی‌گردی. وسیله‌ات همان لحظه جواب می‌دهد، هر قدر هم سرور دور باشد. اولین کسی که از خط پایان رد شود برنده است و بهترین زمان و امتیاز حرکاتت در هر مسیر و با هر وسیله به‌عنوان رکوردت ثبت می‌شود."
+      },
+      "author": {
+        "name": "HokmHub"
+      },
+      "license": "MIT",
+      "tags": [
+        "racing",
+        "realtime",
+        "physics",
+        "stunts"
+      ],
+      "kind": "realtime",
+      "runtime": "wasm",
+      "realtimeMode": "tick",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "icon": "ridge/icon.svg",
+      "theme": {
+        "gradient": [
+          "#ff7a59",
+          "#2b1d52"
+        ]
+      },
+      "latest": "1.1.0",
+      "versions": [
+        {
+          "version": "1.1.0",
+          "url": "https://raw.githubusercontent.com/AmirHkrg/HGS/master/ridge/ridge-1.1.0.tar.gz",
+          "sha256": "64c1b4673fcf23dc06423759612d485a00c28f96ec06198e6c773e36e0da116a",
+          "size": 1453733,
+          "apiVersion": 1,
+          "host": "\u003e=2.2.0 \u003c3.0.0",
+          "stateVersion": 2,
+          "releasedAt": "2026-10-31T03:37:42Z",
+          "changelog": {
+            "en": "- New physics: the chassis and both wheels are rigid bodies on sliding\n  suspensions with stops, the engine and brakes act between wheel and\n  chassis (wheelies, nose-dives under braking), tyres grip with friction,\n  and traction and wheelie control keep full throttle drivable.\n- Your vehicle answers at once: the frontend runs it with the same\n  simulation as the server, bit for bit, and corrects itself from the\n  server; finish times count each seat's own ticks.\n- Four vehicles to pick in the garage before the start: rover, Dirt 250\n  (a 250 cc two-stroke motocross bike), dune buggy and monster truck.\n- Back flips and front flips score points and a boost; big air scores too.\n- Courses with kicks to jump from, no hill steeper than a vehicle can\n  climb, and checkpoints with a run-up.\n- Records per course, distance and vehicle: best time and stunt score."
+          },
+          "permissions": [
+            "audio",
+            "fullscreen",
+            "haptics"
+          ]
         }
       ]
     }

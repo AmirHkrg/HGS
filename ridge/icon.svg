@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1d52"/>
+      <stop offset=".6" stop-color="#c2507a"/>
+      <stop offset="1" stop-color="#ffbd73"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0b46a"/>
+      <stop offset="1" stop-color="#8d522c"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#c23b40"/>
+      <stop offset="1" stop-color="#ff7a7e"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#sky)"/>
+  <circle cx="92" cy="40" r="13" fill="#fff1c1"/>
+  <path d="M0 80 C24 66 40 70 58 76 S96 62 128 70 V128 H0Z" fill="#9a4f6e"/>
+  <path d="M0 104 C20 92 40 84 64 88 S104 74 128 78 V128 H0Z" fill="url(#sand)"/>
+  <path d="M0 104 C20 92 40 84 64 88 S104 74 128 78" fill="none" stroke="#ffe2a8" stroke-width="3"/>
+  <g transform="translate(64 70) rotate(-12)">
+    <path d="M-24 6 H22 Q27 6 26 1 L18 -4 H8 L4 -1 H-12 L-16 -6 H-24Z" fill="url(#body)"/>
+    <path d="M-15 -5 L-11 -19 H2 L6 -5" fill="none" stroke="#e5e7eb" stroke-width="2"/>
+    <circle cx="-3" cy="-13" r="4.6" fill="#f8fafc"/>
+    <rect x="-24" y="-1" width="40" height="1.6" fill="#fff" opacity=".7"/>
+    <g fill="#16191f" stroke="#94a3b8" stroke-width="2.4">
+      <circle cx="-16" cy="12" r="7"/>
+      <circle cx="16" cy="12" r="7"/>
+    </g>
+  </g>
+</svg>
