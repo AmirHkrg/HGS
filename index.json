@@ -9,7 +9,7 @@
     "name": "Ekhsh",
     "url": "https://github.com/AmirHkrg/HGS"
   },
-  "updatedAt": "2026-10-31T03:45:41Z",
+  "updatedAt": "2026-10-31T19:00:35Z",
   "keys": [
     {
       "kid": "k-8bdef75691fd57e8",
@@ -114,8 +114,30 @@
           "#2b1d52"
         ]
       },
-      "latest": "1.1.0",
+      "latest": "1.1.1",
       "versions": [
+        {
+          "version": "1.1.1",
+          "url": "https://raw.githubusercontent.com/AmirHkrg/HGS/master/ridge/ridge-1.1.1.tar.gz",
+          "sha256": "9859d710a3a745e0844943087496f5ac74f0bbee278947f4f4de3ef4f399b0be",
+          "size": 1454526,
+          "apiVersion": 1,
+          "host": "\u003e=2.2.0 \u003c3.0.0",
+          "stateVersion": 2,
+          "releasedAt": "2026-10-31T19:00:35Z",
+          "changelog": {
+            "en": "- Smooth on a weak connection: frames that come late or in a burst no\n  longer stop your vehicle (the race clock is the least late estimate),\n  a burst is checked once, and only after more than a second without any\n  frame does your race slow down, gently, to wait for the server.\n- Inputs go as runs of held buttons, so one message carries seconds of\n  them: after a stall the first one through gives the server every tick\n  it missed, and your vehicle is not pulled back.\n- The server waits up to 1.5 s (was 0.5 s) for a slow driver before it\n  drives on with the last input.\n- The others are drawn further in the past when frames come unevenly,\n  and run on for a moment instead of stopping when a frame is late."
+          },
+          "permissions": [
+            "audio",
+            "fullscreen",
+            "haptics"
+          ],
+          "signature": {
+            "kid": "k-2846cbf45e14e2d8",
+            "sig": "Cmy/rgFCBnxdIHtmQFf3ENhoOjYeeEsRCzFdAjMMufGehhQzYB8/BJm1NlqIRswVy+F3CPsGynF1cJYsYEFRDQ=="
+          }
+        },
         {
           "version": "1.1.0",
           "url": "https://raw.githubusercontent.com/AmirHkrg/HGS/master/ridge/ridge-1.1.0.tar.gz",
