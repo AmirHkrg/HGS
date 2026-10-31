@@ -1,0 +1,10 @@
+{
+  "id": "chess",
+  "version": "1.0.0",
+  "sha256": "971cf91c935c02346fed36d244bcc311ddb6c9caba80501e2b1956d049014ca3",
+  "size": 234460,
+  "signature": {
+    "kid": "k-8bdef75691fd57e8",
+    "sig": "ZKVXOciPrJIdhF5hHSm15PgfjgVayWxDxtJEJiCRlTvGFvI3u03pEmxGySPSMgtkjSeuSUvzkqmleXFJbUw2BQ=="
+  }
+}
